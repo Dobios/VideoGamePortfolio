@@ -16,38 +16,42 @@ Projects in each subject are ordered chronologically and cover Software and Hard
   
 ## Table of Contents  
 
- 1. __Video Game Development__   
-    - [Ensured: A sustainable developmnent tycoon]()  
-    - [Hammered]()  
-    - [Lausanne 1830: Stories in History]()  
-    - [Four Condos and a Containment]()
-    - [Theory of Human Demotivation]()  
-    - [NCurses-Pong]()  
-    - [Capture the flag NDS]()  
-    - [Permafrost Tilter]()  
+ 1. __[Video Game Development](#video-game-development)__     
 
- 2. __Computer Graphics & Vision__  
-    - [Building an Interactive 3D Modeling Application]()  
-    - [Nori: A Physically Based Renderer]()  
-    - [Position Based Fluids]()  
-    - [A Modern Approach to Road Segmentation]()  
-    - [Real-Time Rendering of Dielectric Materials]()  
-   
-3. __Verification & Compiler Engineering__  
-    - [Grammar-based Exhaustive Testing of JSON validation]()  
-    - [ChiselVerify: A Hardware Verification Library for Chisel]()  
-    - [Functional-Coverage Guided Fuzzing for Chisel Designs]()
-    - [Implementing L3, a Lisp-Like-Language]()  
-    - [Permission-Based Formal Verification with Viper]()
+    - [Ensured: A sustainable developmnent tycoon](#ensured-a-sustainable-developmnent-tycoon)  
+    - [Hammered](#hammered)  
+    - [Lausanne 1830: Stories in History](#lausanne-1830-stories-in-history)  
+    - [Four Condos and a Containment](#four-condos-and-a-containment)
+    - [Theory of Human Demotivation](#theory-of-human-demotivation)  
+    - [NCurses-Pong](#ncurses-pong)  
+    - [Capture the flag NDS](#capture-the-flag-nds)  
+    - [Permafrost Tilter](#permafrost-tilter)  
+
+ 2. __[Computer Graphics & Vision](#computer-graphics--vision)__    
+
+    - [Building an Interactive 3D Modeling Application](#building-an-interactive-3d-modeling-application)  
+    - [Nori: A Physically Based Renderer](#nori-a-physically-based-renderer)  
+    - [Position Based Fluids](#position-based-fluids)  
+    - [A Modern Approach to Road Segmentation](#a-modern-approach-to-road-segmentation)  
+    - [Real-Time Rendering of Dielectric Materials](#real-time-rendering-of-dielectric-materials)      
+
+3. __[Verification & Compiler Engineering](#verification--compiler-engineering)__    
+
+    - [Grammar-based Exhaustive Testing of JSON validation](#grammar-based-exhaustive-testing-of-json-validation)  
+    - [ChiselVerify: A Hardware Verification Library for Chisel](#chiselverify-a-hardware-verification-library-for-chisel)  
+    - [Functional-Coverage Guided Fuzzing for Chisel Designs](#functional-coverage-guided-fuzzing-for-chisel-designs)
+    - [Implementing L3, a Lisp-Like-Language](#implementing-l3-a-lisp-like-language)  
+    - [Permission-Based Formal Verification with Viper](#permission-based-formal-verification-with-viper)
        
-4. __Systems Programming & Hardware Development__  
-    - [OpenMP Tasking Backend for the DaCe framework]()  
-    - [High Performance Code Generation for Floyd Warshall]()  
-    - [DRAM Memory Request Scheduling Simulator for Champsim]()
-    - [Multi-Core cache-coherent Processor Simulator]()
-    - [Accelerating Ray-Tracing on FPGA]()  
-    - [5-Stage Pipelined NIOSII Processor Implementation]()
-    - [Gameboj - a Gameboy Emulator]()  
+4. __[Systems Programming & Hardware Development](#systems-programming--hardware-development)__    
+
+    - [OpenMP Tasking Backend for the DaCe framework](#openmp-tasking-backend-for-the-dace-framework)  
+    - [High Performance Code Generation for Floyd Warshall](#high-performance-code-generation-for-floyd-warshall)  
+    - [DRAM Memory Request Scheduling Simulator for Champsim](#dram-memory-request-scheduling-simulator-for-champsim)
+    - [Multi-Core cache-coherent Processor Simulator](#multi-core-cache-coherent-processor-simulator)
+    - [Accelerating Ray-Tracing on FPGA](#accelerating-ray-tracing-on-fpga)  
+    - [5-Stage Pipelined NIOSII Processor Implementation](#5-stage-pipelined-niosii-processor-implementation)
+    - [Gameboj - a Gameboy Emulator](#gameboj---a-gameboy-emulator)  
 
 *******************************************************  
   
@@ -61,7 +65,9 @@ Projects in each subject are ordered chronologically and cover Software and Hard
      In the scope of the [SWEET SURE: Sustainable and Resilient Energy for Switzerland](https://sweet-sure.ch/) project, which is funded by the Swiss Confederation and is a collaboration between various research institutions, we have been tasked by the Università della Svizzera Italiana (USI)'s Euler Institute to create a video game illustrating the difficult dicisions that must be made to achieve net zero carbon emissions by 2050. For this project we are a core team of 3 people for the video game itself (a developer, a game designer, and an artist), as well as one post-doc working on the energy grid simulation backend, a team of political scientists at the universtiy of Bern designing the policies, and their impact on the political landscape, that the player can put in place to mitigate climate shocks, as well as 3 projects leaders coordinating the various different teams.   
 
     #### Description  
-     Throughout our turn-based game, the energy minister (a.k.a. the player) is confronted with a series of societal or environmental shocks which can disrupt the grid. In response to this, they can implement policies which will mitigate the impacts of these shocks all while impacting their political support amongst the people. Given that Switzerland is a Direct Democracy, the people's support is alwayd required to get anything done, so it's important to keep the political landscape of the country in mind when implementing new energy policies. Practically, the player works towards the country's energy transition by building new power-plants, retireing old ones, implementing energy policies, managing energy imports, as well as reacting to climate shocks.  
+
+     Throughout our turn-based game, the energy minister (a.k.a. the player) is confronted with a series of societal or environmental shocks which can disrupt the grid. In response to this, they can implement policies which will mitigate the impacts of these shocks all while impacting their political support amongst the people. Given that Switzerland is a Direct Democracy, the people's support is alwayd required to get anything done, so it's important to keep the political landscape of the country in mind when implementing new energy policies. Practically, the player works towards the country's energy transition by building new power-plants, retireing old ones, implementing energy policies, managing energy imports, as well as reacting to climate shocks.    
+
      ![Game Prototype Screenshot](res/VG&CG/SURE_Game_Proto.png)
 
 
@@ -123,7 +129,7 @@ Projects in each subject are ordered chronologically and cover Software and Hard
 ### Real-Time Rendering of Dielectric Materials  
 
 *******************************************************  
-  
+    
 ## Verification & Compiler Engineering    
   
 ### Grammar-based Exhaustive Testing of JSON validation    
